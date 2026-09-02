@@ -1,6 +1,6 @@
 
 from fastapi import HTTPException
-
+from schemas.auth import SignupRequest
 from config.database import supabase
 
 
